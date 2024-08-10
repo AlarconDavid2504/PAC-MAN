@@ -1,0 +1,22 @@
+.circulo{
+height: 150px;
+width: 158px;
+background-color:black;
+border-radius: 58%;
+animation-name: Pacman;
+animation-duration: 20s;
+position: relative;
+}
+@keyframes Pacman{
+0% {background-color: rgb(255, 0, 0); left: 0px; top: 0px;}
+10%{background-color: rgb(255, 0, 0); left: 2400px; top: 0px;}
+20%{background-color: rgb(255, 0, 0);left: 2400px;top: 300px;}
+30%{background-color: rgb(255, 0, 0); left: 2400px; top: 300px;}
+40%{background-color: rgb(255, 0, 0); left: 0px; top: 300px;}
+50%{background-color: rgb(255, 0, 0); left: 0px; top: 600px;}
+60%{background-color: rgb(255, 0, 0); left: 2400px; top: 600px;}
+70%{background-color: rgb(255, 2, 2); left: 2400px; top: 800px;}
+80%{background-color: rgb(255, 0, 0); left: 0px; top: 800px;}
+90%{background-color: rgb(252, 7, 7); left: 0px; top: 1000px;}
+100%{background-color: rgb(255, 0, 0); left: 1200px; top: 1200px;}   
+}       
